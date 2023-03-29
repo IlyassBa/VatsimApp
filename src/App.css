@@ -3,14 +3,14 @@
 }
 .App div{
   display: inline-block;
-  height: 100%;
+  float: left;
 }
 
 .sidebar{
   width: 10%!important;
 }
 .content{
-  width: 89%;
+  width: 88%;
 }
 
 

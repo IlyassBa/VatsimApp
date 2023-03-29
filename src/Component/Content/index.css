@@ -1,0 +1,48 @@
+.MetarContent{
+    color: white;
+    font-size: 25px;
+}
+
+.FetchInput{
+
+}
+.FetchInput input{
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.FetchBtn{
+}
+
+.FetchBtn a{
+    padding: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.FetchBtn a:hover{
+    padding: 10px;
+    margin-left: 15px;
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+.Content-Placement{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 100px;
+    
+}
+
+
