@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.App div{
+  display: inline-block;
+  float: left;
+}
+
+.sidebar{
+  width: 10%!important;
+}
+.content{
+  width: 88%;
+}
+
+
+#icaoCodeInput{
+  width: 200px;
+  height: 20px;
+}

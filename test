@@ -1,0 +1,41 @@
+[33mcommit b709fa19051a37b8651e44f002a60ec13f22f906[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Thu Mar 30 05:10:02 2023 +0000
+
+    Added Json configuration file
+
+[33mcommit ce6488fbdec323f5b4660be366cb2b0fbe22d903[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Thu Mar 30 04:50:58 2023 +0000
+
+    Clean Code / added simbrief API / working fetch BTNS
+
+[33mcommit 80222b4ab5dd8cc8e89b8fc9fe0e2c43fac8f55f[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Thu Mar 30 04:42:29 2023 +0000
+
+    Clean code and working Departure / Arrival Btns
+
+[33mcommit 0ad093e9d262d69f01441513f0f1c35796250af9[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Wed Mar 29 00:18:37 2023 +0000
+
+    made UI Better and app work okay
+
+[33mcommit 3c8e7bb502f571d3e29969974637390e841d21cd[m
+Author: Ilyass Baba <ilyassbaba@gmail.com>
+Date:   Tue Mar 28 08:06:10 2023 +0000
+
+    Working Metar
+
+[33mcommit 64bbe227986946055b3a2c9e22571b459b5c4de3[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Mon Mar 27 23:44:27 2023 +0000
+
+    first commit
+
+[33mcommit f3214e10094e360c2f641690ff819ce81a21dc60[m
+Author: Ilyass Baba <ilyassbaba.me@gmail.com>
+Date:   Mon Mar 27 23:42:08 2023 +0000
+
+    Initialize project using Create React App
