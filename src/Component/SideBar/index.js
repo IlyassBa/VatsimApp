@@ -26,6 +26,7 @@ function SideBarComponent(){
     return (
         <div className="sidebar" id="sidebar">
             <Link linkname="Metar"></Link>
+            <Link linkname="Settings"></Link>
         </div>  
     )
 }

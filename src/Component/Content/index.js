@@ -1,8 +1,12 @@
 import React from "react";
-import {useState } from 'react';
+import {useState} from 'react';
 
 // Import StyleSheet 
 import "./index.css"
+
+
+// Import Json Settings
+import data from '../../Configuration/Simbrief/data.json';
 
 
 function Content(props) {
@@ -19,18 +23,17 @@ function Content(props) {
   };
 
 
-
   // Function to fetch origin icao code from Simbrief and send it to fetchmetar function
-  function fetchOriginMetar(){
-    fetch("https://www.simbrief.com/api/xml.fetcher.php?username=IlyassBaba&json=1")
+  function fetchOriginMetar(username){
+    fetch("https://www.simbrief.com/api/xml.fetcher.php?username=" + username +"&json=1")
     .then(response => response.json())
     .then(response => fetchMetar(response.api_params.orig))
   }
 
   
   // Function to fetch destination icao code from Simbrief and send it to fetchmetar function
-  function fetchDestinationMetar(){
-    fetch("https://www.simbrief.com/api/xml.fetcher.php?username=IlyassBaba&json=1")
+  function fetchDestinationMetar(username){
+    fetch("https://www.simbrief.com/api/xml.fetcher.php?username=" + username +"&json=1")
     .then(response => response.json())
     .then(response => fetchMetar(response.api_params.dest))
   }
@@ -69,8 +72,8 @@ function Content(props) {
             </div>
             
             <div className="FetchBtn Content-Placement">    
-                <a type="button" onClick={() => fetchOriginMetar()}>Depature</a>
-                <a type="button" onClick={() => fetchDestinationMetar()}>Arrival</a>
+                <a type="button" onClick={() => fetchOriginMetar(data.simbriefName)}>Depature</a>
+                <a type="button" onClick={() => fetchDestinationMetar(data.simbriefName)}>Arrival</a>
                 <a type="button" onClick={() => fetchMetar(icaoCode)}>Fetch</a>
             </div>
         </div>
