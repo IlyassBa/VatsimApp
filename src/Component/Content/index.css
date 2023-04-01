@@ -7,9 +7,9 @@
 
 }
 .FetchInput input{
-    border: 1px solid white;
+    border: 1px solid rgb(97, 97, 97);
     padding: 5px;
-    color: white;
+    color: rgb(143, 143, 143);
     background-color: black;
 }
 
@@ -19,9 +19,9 @@
 .FetchBtn a{
     padding: 10px;
     margin-left: 15px;
-    color: white;
+    color: rgb(83, 83, 83);
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid rgb(99, 99, 99);
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -29,8 +29,8 @@
 .FetchBtn a:hover{
     padding: 10px;
     margin-left: 15px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #484848;
     transition: all 0.3s ease;
 }
 

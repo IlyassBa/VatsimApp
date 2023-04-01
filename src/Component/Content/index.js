@@ -43,7 +43,7 @@ function Content(props) {
   function fetchMetar(Code) {
         if(Code != ""){
           
-          let url = "http://localhost:8000/" + Code;
+          let url = "http://192.168.1.9:8000/" + Code;
           
           fetch(url)
             .then(response => response.text())
