@@ -2,7 +2,7 @@
   text-align: center;
 }
 .App div{
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
 }
 
@@ -10,7 +10,7 @@
   width: 10%!important;
 }
 .content{
-  width: 88%;
+  width: 80%;
 }
 
 

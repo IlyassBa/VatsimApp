@@ -1,0 +1,58 @@
+.MetarContent{
+    color: white;
+    font-size: 25px;
+}
+
+.FetchInput input{
+    border: 1px solid rgb(153, 153, 153);
+    padding: 5px;
+    color: rgb(143, 143, 143);
+    background-color: black;
+    transition: all 0.3s ease;
+}
+.FetchInput input:hover{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    color: rgb(143, 143, 143);
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+
+.FetchBtn a{
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(209, 209, 209);
+    background-color: black;
+    border: 1px solid rgb(153, 153, 153);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.FetchBtn a:hover{
+    padding: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: #484848;
+    transition: all 0.3s ease;
+}
+
+
+.Content-Placement{
+    /* background-color: aqua; */
+    width: 1022px;
+    height: 150px;
+    
+}
+
+
+
+
+.metarContent{
+    background-color: rgb(54 54 54 / 30%);
+    border-radius: 10px;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}

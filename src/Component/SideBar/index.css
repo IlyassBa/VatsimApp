@@ -5,5 +5,7 @@
     margin-top: 30px;
     margin-left: 1%;
     border-radius: 10px;
+    
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
 }
 
