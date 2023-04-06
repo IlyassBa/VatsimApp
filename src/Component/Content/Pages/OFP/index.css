@@ -1,3 +1,168 @@
 .OFPContent{
     display: none;
+}   
+.OFPContentInfo{
+    width: 1150px;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 15px;
+    cursor: pointer;
 }
+.OFPContentInfo a{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.OFPMore:hover{
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+}
+
+.OFPContentInfo:hover > a{
+    color: white; 
+    transition: all 0.3s ease;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+}
+
+.OFPMore{
+    width: 1150px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.OFPMore:hover{
+    transition: all 0.3s ease;
+}
+
+.ContentInfo{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: none;
+}
+/* Flight Info Container */
+.FlightInfo{
+    width: 100%;
+    height:30%;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.FlightInfo-Container-1,.FlightInfo-Container-2{
+    width: 100%;
+    display: inline-block;
+}
+.FlightInfo-Container-1{
+   
+}
+.FlightInfo-Container-1 div,.FlightInfo-Container-2 div{
+    width: 33%;
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Flight Route Containers */
+.FlightRoute{
+    width: 100%;
+    height:20%;
+    color: white;
+    padding-top:1% ;
+    border-bottom: 1px solid white;
+}
+.FlightRouteTitle{
+    width: 100%;
+    height: 10%;
+    text-align: left;
+}
+.FlightRouteTitle p{
+    padding-left: 50px;
+}
+.FlightRouteContent{
+    width: 100%;
+    height: 89%;
+}
+.FlightRouteContent div{
+    width: 100%;
+    height: 70%;
+    margin-top:4% ;
+}
+/* Fuel Information Container */
+.FlightFuel{
+    width: 100%;
+    height:25%;
+    color: white;
+    border-bottom : 1px solid white
+}
+.FlightFuelTitle{
+    width: 100%;
+    height: 10%;
+    text-align: left;
+}
+.FlightFuelTitle p{
+    padding-left: 50px;
+}
+.FlightFuelContent{
+    width: 100%;
+    height: 89%;
+}
+.FlightFuelContent div{
+    width: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+/* Weight Information Container */
+.FlightWeight{
+    width: 100%;
+    height:25%;
+    color: white;
+    }
+.FlightWeightTitle{
+    width: 100%;
+    height: 10%;
+    text-align: left;
+}
+.FlightWeightTitle p{
+    padding-left: 50px;
+}
+.FlightWeightContent{
+    width: 100%;
+    height: 89%;
+}
+.FlightWeightContent div{
+    width: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+/* New Code */
+
+
+.OFPPDF{
+    
+    width: 1150px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.RefreshOFP{
+    color :white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

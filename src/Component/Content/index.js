@@ -8,7 +8,7 @@ import "./index.css"
 import Metar from "./Pages/Metar";
 import OFP from "./Pages/OFP";
 import Charts from "./Pages/Charts";
-
+import Vatsim from "./Pages/Vatsim";
 
 
 function Content(props) {
@@ -19,6 +19,7 @@ function Content(props) {
             <Metar></Metar>
             <OFP></OFP>
             <Charts></Charts>
+            <Vatsim></Vatsim>
         </div>
     )
 }

@@ -28,7 +28,8 @@ function SideBarComponent(){
             <Link linkname="Metar" classString="metarContent"></Link>
             <Link linkname="OFP" classString="OFPContent"></Link>
             <Link linkname="Charts" classString="ChartsContent"></Link>
-            <Link linkname="Settings"></Link>
+            <Link linkname="Vatsim" classString="VatsimContent"></Link>
+            <Link linkname="Settings" classString=""></Link>
         </div>  
     )
 }
