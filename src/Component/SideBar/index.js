@@ -29,6 +29,7 @@ function SideBarComponent(){
             <Link linkname="OFP" classString="OFPContent"></Link>
             <Link linkname="Charts" classString="ChartsContent"></Link>
             <Link linkname="Vatsim" classString="VatsimContent"></Link>
+            <Link linkname="Calculator" classString="CalculatorContent"></Link>
             <Link linkname="Settings" classString=""></Link>
         </div>  
     )

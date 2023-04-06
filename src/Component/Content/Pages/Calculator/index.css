@@ -1,0 +1,16 @@
+.CalculatorContent{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.WeightConverter{
+    background-color: rgb(54 54 54 / 30%);
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+    height: 300px;
+    width: 1022px;    
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 15px;
+
+}

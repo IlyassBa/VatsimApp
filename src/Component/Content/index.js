@@ -9,6 +9,7 @@ import Metar from "./Pages/Metar";
 import OFP from "./Pages/OFP";
 import Charts from "./Pages/Charts";
 import Vatsim from "./Pages/Vatsim";
+import Calculator from "./Pages/Calculator";
 
 
 function Content(props) {
@@ -20,6 +21,7 @@ function Content(props) {
             <OFP></OFP>
             <Charts></Charts>
             <Vatsim></Vatsim>
+            <Calculator></Calculator>
         </div>
     )
 }

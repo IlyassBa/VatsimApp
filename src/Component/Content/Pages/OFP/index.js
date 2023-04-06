@@ -12,7 +12,7 @@ import { useState } from "react";
 
 
 function OFP(props) {
-    var i = true
+    // var i = true
 
     // Hooks
     const [PDFLink , setPDFLink] = useState("") // store pdf link

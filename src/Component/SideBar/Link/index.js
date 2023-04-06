@@ -5,7 +5,7 @@ import "./index.css"
 
 
 function Link(props) {
-    const Pages = ["metarContent","OFPContent","ChartsContent","VatsimContent"]
+    const Pages = ["metarContent","OFPContent","ChartsContent","VatsimContent","CalculatorContent"]
     return (
         <div 
             className="SideBarLink" 
