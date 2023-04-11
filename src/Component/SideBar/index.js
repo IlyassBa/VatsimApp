@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 // CSS
 import "./index.css";
+import 'animate.css';
 
 // Component
 import Link from './Link';
@@ -19,18 +20,17 @@ import Link from './Link';
 
 function SideBarComponent(){
 
-    
     useEffect(() => {
     }, []);
 
     return (
-        <div className="sidebar" id="sidebar">
-            <Link linkname="Metar" classString="metarContent"></Link>
-            <Link linkname="OFP" classString="OFPContent"></Link>
-            <Link linkname="Charts" classString="ChartsContent"></Link>
-            <Link linkname="Vatsim" classString="VatsimContent"></Link>
-            <Link linkname="Calculator" classString="CalculatorContent"></Link>
-            <Link linkname="Settings" classString=""></Link>
+        <div className="sidebar" id="sidebar" >
+            <Link LinkOrder="0" linkname="Metar" icon="fa-solid fa-cloud" classString="metarContent"></Link>
+            <Link LinkOrder="1" linkname="OFP" icon="fa-solid fa-plane" classString="OFPContent"></Link>
+            <Link LinkOrder="2" linkname="Charts" icon="fa-solid fa-newspaper" classString="ChartsContent"></Link>
+            <Link LinkOrder="3" linkname="Vatsim" icon="fa-solid fa-globe" classString="VatsimContent"></Link>
+            <Link LinkOrder="4" linkname="Calculator" icon="fa-solid fa-calculator" classString="CalculatorContent"></Link>
+            <Link LinkOrder="5" linkname="Settings" icon="fa-solid fa-gear" classString=""></Link>
         </div>  
     )
 }

@@ -8,7 +8,9 @@
 }
 
 .sidebar{
-  width: 10%!important;
+  padding-right: 1%;
+  width: 4%;
+  transition: all 0.3s ease;
 }
 .content{
   width: 80%;

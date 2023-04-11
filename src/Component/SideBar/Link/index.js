@@ -6,9 +6,32 @@ import "./index.css"
 
 function Link(props) {
     const Pages = ["metarContent","OFPContent","ChartsContent","VatsimContent","CalculatorContent"]
+
+    
+    function SideBarAnimationIn(){
+            let i = props.LinkOrder
+            document.getElementsByClassName("SideBarLinkA")[i].classList.remove("animate__fadeOutLeft");
+            document.getElementsByClassName("SideBarLinkA")[i].style.display = "block";
+            document.getElementsByClassName("SideBarLinkA")[i].classList.add("animate__fadeInLeft");
+    }
+    
+    function SideBarAnimationOut(){
+            let i = props.LinkOrder
+            document.getElementsByClassName("SideBarLinkA")[i].classList.add("animate__fadeOutLeft")
+            document.getElementsByClassName("SideBarLinkA")[i].style.display = "none";
+            document.getElementsByClassName("SideBarLinkA")[i].classList.remove("animate__fadeInLeft");
+       
+    }
+    
+
+
     return (
         <div 
-            className="SideBarLink" 
+            onMouseOver={()=>{SideBarAnimationIn()}} 
+            onMouseOut={()=>{SideBarAnimationOut()}}
+
+            className={"SideBarLink"}
+            id="SideBarLink"
             onClick={
                 ()=>{
                     for (let i=0; i<Pages.length; i++){
@@ -23,11 +46,11 @@ function Link(props) {
                     }}
         >
 
-
-
-
-            <i class={props.icon}></i>
-            <a href="#">{props.linkname}</a>
+                    
+                    
+            <div><i class={props.icon}></i></div>
+            <div><a href="#" className={"SideBarLinkA"}>{props.linkname}</a></div>
+            
         </div>
     )
 

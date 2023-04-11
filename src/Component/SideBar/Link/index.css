@@ -2,16 +2,41 @@
     color: rgb(209, 209, 209);
     text-decoration: none;
 }
+.SideBarLink i {
+    color: rgb(209, 209, 209);
+    font-size: 15px;
+}
 .SideBarLink{
-    padding: 20%;
+    padding: 30%;
     width: 60%;
-    height: 20px;
+    height: 5%;
+    margin-top: 50%;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.SideBarLink svg{
+    color: white;
+    padding: 9px;
+}
+.SideBarLink div{
+    text-align: center;
+}
 .SideBarLink:hover{
     background-color: rgb(209, 209, 209,0.3);
-    border-radius: 0px;
+    /* border-radius: 100px; */
     transition: all 0.3s ease;
+}
+.SideBarLinkA{
+    position: absolute;
+    z-index: 1;
+    padding: 8%;
+    animation-duration: 0.3s;
+    margin-left: 50px;
+    display: none;
+    background-color: rgb(209, 209, 209,0.3);
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
 }

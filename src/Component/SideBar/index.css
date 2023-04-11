@@ -1,11 +1,13 @@
 .sidebar{
     background-color: rgb(54 54 54 / 30%);
-    width: 100%;
     height: 90%;
     margin-top: 30px;
     margin-left: 1%;
     border-radius: 10px;
     position: fixed;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+}
+.sidebar:hover{
     backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
 }
 
