@@ -9,7 +9,7 @@ function Vatsim(props) {
 
     return (
         <div className="VatsimContent">
-          <embed src={"https://v2preview.vattastic.com/"} style={{borderRadius: "15px",margin:"50px" ,width:"1200px", height: "650px"}}></embed>
+          <embed src={"https://v2preview.vattastic.com/"} style={{borderRadius: "15px", width:"80vw", height: "90vh"}}></embed>
         </div>
     )
 }

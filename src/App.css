@@ -8,7 +8,7 @@
 }
 
 .sidebar{
-  padding-right: 1%;
+  /* padding-right: 1%; */
   width: 4%;
   transition: all 0.3s ease;
 }
@@ -18,8 +18,11 @@
 
 
 #icaoCodeInput{
-  width: 200px;
-  height: 20px;
+  width: 15vw;
+  height: 2vh;
+  background: rgba(0, 0, 0, 0)!important;
+  outline: none;
+  text-align: center;
 }
 
 

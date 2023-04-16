@@ -30,7 +30,7 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body onload="Size()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -44,5 +44,11 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    function Size() {
+      // console.log(window.innerHeight);
+      document.getElementById("root").style.height = window.innerHeight
+    }
+  </script>
   <script src="https://kit.fontawesome.com/db91daadfd.js" crossorigin="anonymous"></script>
 </html>

@@ -1,7 +1,11 @@
 .MetarContent{
     color: white;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
+.MetarContent p{
+    margin-top:5vh ;
+}
+
 
 .FetchInput input{
     border: 1px solid rgb(153, 153, 153);
@@ -40,8 +44,8 @@
 
 .Content-Placement{
     /* background-color: aqua; */
-    width: 1022px;
-    height: 150px;
+    width: 100%;
+    height: 15vh;
     
 }
 
@@ -52,7 +56,9 @@
     background-color: rgb(54 54 54 / 30%);
     border-radius: 10px;
     backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
-    margin-top: 10%;
-    margin-left: 10%;
+    width: 80vw;
+    display: none;
+    
+    margin-left: 5vw;
     
 }

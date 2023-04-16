@@ -1,6 +1,11 @@
 .OFPContent{
     display: none;
 }   
+.OFPContent div{
+    margin-top: 10px;
+    width: 80vw;
+    display: block;
+}
 .OFPContentInfo{
     width: 1150px;
     height: 50px;

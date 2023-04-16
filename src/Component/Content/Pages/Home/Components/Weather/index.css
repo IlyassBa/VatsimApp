@@ -1,0 +1,9 @@
+.Weather-Container-Content-Info{
+    width: 10.9vw;
+    height: 12vh;
+    text-align: center;
+}
+.Weather-Container-Content-Info div{
+    width: 10.9vw;
+    text-align: center;
+}

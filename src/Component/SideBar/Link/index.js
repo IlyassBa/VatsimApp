@@ -5,7 +5,7 @@ import "./index.css"
 
 
 function Link(props) {
-    const Pages = ["metarContent","OFPContent","ChartsContent","VatsimContent","CalculatorContent"]
+    const Pages = ["homeContent","metarContent","OFPContent","ChartsContent","VatsimContent","CalculatorContent"]
 
     
     function SideBarAnimationIn(){
@@ -49,7 +49,7 @@ function Link(props) {
                     
                     
             <div><i class={props.icon}></i></div>
-            <div><a href="#" className={"SideBarLinkA"}>{props.linkname}</a></div>
+            <div><a href="#" className="SideBarLinkA">{props.linkname}</a></div>
             
         </div>
     )

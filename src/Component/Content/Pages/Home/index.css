@@ -1,0 +1,86 @@
+.homeContent{
+    border-radius: 10px;
+    width: 80vw;
+      
+
+}
+.Welcome-Container{
+    width:80vw ;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+    padding-top: 3vh;
+    padding-bottom:5vh;
+    text-align: left;
+    display: block;
+    animation-duration: 0.5s;
+    background-color: rgb(54 54 54 / 30%) ;
+
+}
+
+.Welcome-Container div{
+    width:80vw ;
+    height: 7vh;
+}
+
+
+.Welcome-Container div *{
+    color: white;
+    text-decoration: none;
+    width:80vw ;
+    padding-left:10vh;
+}
+
+.Welcome-Container-link{
+    cursor: pointer;
+}
+.Weather-Container-Departure{
+    margin-right: 40vw;
+}
+
+
+
+
+
+
+
+
+
+.Weather-Container{
+    width: 50vh;
+    height: 40vh;
+    backdrop-filter: contrast(100%) saturate(230%) blur(10px) brightness(110%);
+    margin-top: 5vh;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(54 54 54 / 30%);
+    display: block;
+    animation-duration: 0.5s;
+}
+
+.Weather-Container-Departure{
+    margin-right: 25.2vw;
+}
+
+.Weather-Container-Title{
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+}
+
+.Weather-Container-Title p{
+    margin-top: 3vh;
+}
+
+
+.Weather-Container-Content{
+    width: 40vh;
+    height: 25vh;
+    padding: 5vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    margin-top: 5vh;
+    text-align: left;
+}
+
+.Weather-Container-Content p{
+    
+}

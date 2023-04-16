@@ -5,6 +5,7 @@ import "./index.css"
 
 
 // Import Component
+import Home from "./Pages/Home";
 import Metar from "./Pages/Metar";
 import OFP from "./Pages/OFP";
 import Charts from "./Pages/Charts";
@@ -16,7 +17,8 @@ function Content(props) {
 
 
     return (
-        <div className="content">     
+        <div className="content">
+            <Home></Home>  
             <Metar></Metar>
             <OFP></OFP>
             <Charts></Charts>
